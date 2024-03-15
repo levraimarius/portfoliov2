@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import Profile from "./components/Profile/Profile";
+import Experience from "./components/Experience/Experience";
+import Education from "./components/Education/Education";
+import Skills from "./components/Skills/Skills";
+import Language from "./components/Language/Language";
+import BubblesAnimation from "./components/BubblesAnimation/BubblesAnimation";
+import "./assets/styles/global.scss";
 
-function App() {
+function Portfolio() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="content">
+        {/* Profil */}
+        <Profile />
+
+        {/* Expérience */}
+        <Experience />
+
+        {/* Formations */}
+        <Education />
+
+        {/* Compétences */}
+        <Skills />
+
+        {/* Langues */}
+        <Language />
+
+        {/* Bulles */}
+        <BubblesAnimation />
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Portfolio;
