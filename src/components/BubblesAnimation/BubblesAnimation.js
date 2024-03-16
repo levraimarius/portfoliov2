@@ -88,7 +88,7 @@ function BubblesAnimation() {
                 <li>
                   Vous pouvez consulter le code source{" "}
                   <a
-                    href="https://github.com/levraimarius/portfolio"
+                    href="https://github.com/levraimarius/portfoliov2"
                     target="_blank"
                     rel="noreferrer"
                   >
