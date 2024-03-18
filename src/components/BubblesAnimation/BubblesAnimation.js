@@ -33,6 +33,7 @@ function BubblesAnimation() {
   const handleCv = () => {
     window.open(CV);
   };
+
   return (
     <div>
       <div className="bubbles-container">
@@ -40,7 +41,7 @@ function BubblesAnimation() {
         <button
           data-tooltip-id="github-tooltip"
           data-tooltip-content="GitHub"
-          data-tooltip-place="top-start"
+          data-tooltip-place="right"
           className="bubble bubble1"
           onClick={handleGithubClick}
         >
@@ -50,7 +51,7 @@ function BubblesAnimation() {
         <button
           data-tooltip-id="linkedin-tooltip"
           data-tooltip-content="Linkedin"
-          data-tooltip-place="top-start"
+          data-tooltip-place="right"
           className="bubble bubble2"
           onClick={handleLinkedinClick}
         >
@@ -60,7 +61,7 @@ function BubblesAnimation() {
         <button
           data-tooltip-id="cv-tooltip"
           data-tooltip-content="Mon CV"
-          data-tooltip-place="top-start"
+          data-tooltip-place="right"
           className="bubble bubble3"
           onClick={handleCv}
         >
@@ -70,7 +71,7 @@ function BubblesAnimation() {
         <button
           data-tooltip-id="info-tooltip"
           data-tooltip-content="Détails techniques"
-          data-tooltip-place="top-start"
+          data-tooltip-place="right"
           className="bubble bubble4"
           onClick={handleHelpClick}
         >

@@ -104,7 +104,9 @@ function Contact() {
           </div>
         )}
         {errorMessage && <div className="error-message">{errorMessage}</div>}
-        <input type="submit" value="Envoyer" />
+        <div>
+          <input type="submit" value="Envoyer" />
+        </div>
       </form>
     </div>
   );
