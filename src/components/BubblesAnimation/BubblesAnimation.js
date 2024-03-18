@@ -76,31 +76,32 @@ function BubblesAnimation() {
         >
           <Icon path={mdiHelp} size={1} />
         </button>
-        {showModal && (
-          <div className="modal-overlay">
-            <div className="modal">
-              <button className="close-button" onClick={closeModal}>
-                <Icon path={mdiCloseThick} size={1} />
-              </button>
-              <h4>Détails techniques</h4>
-              <ul>
-                <li>Ce portfolio est développé en React et Typescript.</li>
-                <li>
-                  Vous pouvez consulter le code source{" "}
-                  <a
-                    href="https://github.com/levraimarius/portfoliov2"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    ici
-                  </a>
-                  .
-                </li>
-              </ul>
-            </div>
-          </div>
-        )}
       </div>
+
+      {showModal && (
+        <div className="modal-overlay">
+          <div className="modal">
+            <button className="close-button" onClick={closeModal}>
+              <Icon path={mdiCloseThick} size={1} />
+            </button>
+            <h4>Détails techniques</h4>
+            <ul>
+              <li>Ce portfolio est développé en React et Typescript.</li>
+              <li>
+                Vous pouvez consulter le code source{" "}
+                <a
+                  href="https://github.com/levraimarius/portfoliov2"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  ici
+                </a>
+                .
+              </li>
+            </ul>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

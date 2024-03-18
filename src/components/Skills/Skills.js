@@ -25,7 +25,7 @@ function Skills() {
   return (
     <div>
       <h3>Mes compétences</h3>
-      <div class="icon-container">
+      <div className="icon-container">
         <Tooltip id="php-tooltip" />
         <i
           data-tooltip-id="php-tooltip"
